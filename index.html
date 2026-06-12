@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoRide — Portofolio Praktikum UI/UX</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="w-full min-h-screen bg-slate-50 font-sans text-slate-800 antialiased selection:bg-orange-100 selection:text-orange-800">
+
+  <nav class="w-full bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100 px-6 py-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <div class="flex items-center font-black text-xl text-slate-900 tracking-tight">
+        <span class="text-teal-600 font-extrabold tracking-tight">Go<span class="text-orange-600">Ride</span></span>
+      </div>
+      <div class="hidden md:flex gap-6 text-xs font-semibold text-slate-500">
+        <a href="#empathize" class="hover:text-teal-600 transition">Empathize</a>
+        <a href="#define" class="hover:text-teal-600 transition">Define</a>
+        <a href="#ideate" class="hover:text-teal-600 transition">Ideate</a>
+        <a href="#prototype" class="hover:text-teal-600 transition">Prototype</a>
+        <a href="#test" class="hover:text-teal-600 transition">Test</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="w-full pt-16 pb-24 px-6 bg-[#0f3434] text-white text-center relative overflow-hidden">
+    <div class="max-w-4xl mx-auto relative z-10 flex flex-col items-center">
+      <div class="mb-6 flex justify-center text-4xl font-black tracking-wider">
+        <span class="text-teal-400">Go<span class="text-orange-500">Ride</span></span>
+      </div>
+      
+      <p class="text-sm md:text-base text-teal-300 font-semibold tracking-wide max-w-xl mx-auto">
+        Platform transportasi cerdas yang mengutamakan kepastian waktu untuk menjamin kelancaran mobilitas harian Anda.
+      </p>
+      
+      <div class="flex gap-4 mt-10">
+        <a href="#prototype" class="px-5 py-2.5 bg-orange-600 text-white font-bold text-xs rounded-full hover:bg-orange-500 transition shadow-lg shadow-orange-600/20">
+          Coba Prototype
+        </a>
+        <button class="px-5 py-2.5 bg-white/10 text-white font-bold text-xs rounded-full hover:bg-white/20 transition border border-white/10">
+          Kunjungi Projek
+        </button>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl w-full mt-20">
+        <img src="LINK_MOCKUP_1" alt="Mockup 1" class="aspect-[9/16] object-cover rounded-2xl border border-white/10 hover:scale-105 transition-transform duration-300 shadow-xl bg-slate-800">
+        <img src="LINK_MOCKUP_2" alt="Mockup 2" class="aspect-[9/16] object-cover rounded-2xl border border-white/10 hover:scale-105 transition-transform duration-300 shadow-xl bg-slate-800">
+        <img src="LINK_MOCKUP_3" alt="Mockup 3" class="aspect-[9/16] object-cover rounded-2xl border border-white/10 hover:scale-105 transition-transform duration-300 shadow-xl bg-slate-800">
+        <img src="LINK_MOCKUP_4" alt="Mockup 4" class="aspect-[9/16] object-cover rounded-2xl border border-white/10 hover:scale-105 transition-transform duration-300 shadow-xl bg-slate-800">
+      </div>
+    </div>
+  </section>
+
+  <section class="w-full bg-white py-12 px-6 text-center border-b border-slate-100">
+    <h2 class="text-2xl md:text-4xl font-extrabold text-slate-900">
+      Cepat, Simpel, <span class="text-teal-600">Meluncur.</span>
+    </h2>
+    <p class="text-xs md:text-sm text-slate-500 max-w-2xl mx-auto mt-2 leading-relaxed">
+      Aplikasi GoRide dirancang untuk mereduksi waktu tunggu dengan tingkat presisi maksimal. Visi utamanya sangat jelas: <strong>Memastikan Anda tiba di lokasi tujuan sesuai rencana tanpa keraguan estimasi.</strong>
+    </p>
+
+    <div class="flex flex-col sm:flex-row justify-center gap-4 max-w-3xl mx-auto mt-8 text-left">
+      <div class="flex-1 bg-slate-50 p-4 rounded-xl border border-slate-100 flex items-center gap-3">
+        <div class="w-8 h-8 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center font-bold text-xs">📅</div>
+        <div>
+          <p class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Durasi Proyek</p>
+          <p class="text-xs font-bold text-slate-800">4 Minggu Sprint</p>
+        </div>
+      </div>
+      
+      <div class="flex-1 bg-slate-50 p-4 rounded-xl border border-slate-100 flex items-center gap-3">
+        <div class="w-8 h-8 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center font-bold text-xs">🎨</div>
+        <div>
+          <p class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Tools Pendukung</p>
+          <p class="text-xs font-bold text-slate-800">Figma Ecosystem</p>
+        </div>
+      </div>
+
+      <div class="flex-1 bg-slate-50 p-4 rounded-xl border border-slate-100 flex items-center gap-3">
+        <div class="w-8 h-8 rounded-full bg-teal-100 text-teal-600 flex items-center justify-center font-bold text-xs">🎯</div>
+        <div>
+          <p class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Pendekatan Desain</p>
+          <p class="text-xs font-bold text-slate-800">Design Thinking</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="w-full bg-[#161f1a] py-16 px-6 text-white border-b border-slate-900">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-5 gap-8 items-center">
+      <div class="md:col-span-2">
+        <h3 class="text-2xl font-black tracking-tight mb-3">Latar Belakang Solusi</h3>
+        <p class="text-xs md:text-sm text-slate-400 leading-relaxed">
+          Studi kasus ini lahir dari keluhan masyarakat mengenai ketidakpastian estimasi waktu tiba pada layanan ride-hailing saat ini. Kegagalan memprediksi waktu secara akurat seringkali menjadi faktor utama rusaknya susunan agenda penting para pengguna.
+        </p>
+      </div>
+      <div class="md:col-span-3 bg-slate-900/60 border border-white/5 p-6 rounded-2xl space-y-4">
+        <h4 class="text-xs font-bold tracking-wider text-orange-400 uppercase">Fokus Pengembangan (Design Goals)</h4>
+        <div class="space-y-3 text-xs">
+          <div class="p-3 bg-white/5 rounded-xl border border-white/5">
+            <span class="font-bold text-white block mb-0.5">⏱️ Keandalan Prediksi Waktu</span>
+            <span class="text-slate-400">Menyediakan transparansi data durasi perjalanan demi mencegah pengguna dari keterlambatan.</span>
+          </div>
+          <div class="p-3 bg-white/5 rounded-xl border border-white/5">
+            <span class="font-bold text-white block mb-0.5">🌐 Aksesibilitas Visual</span>
+            <span class="text-slate-400">Merancang tata letak yang ringkas dengan hierarki informasi yang tajam, sehingga intuitif bagi segala rentang usia.</span>
+          </div>
+          <div class="p-3 bg-white/5 rounded-xl border border-white/5">
+            <span class="font-bold text-white block mb-0.5">🍃 Identitas Visual Baru</span>
+            <span class="text-slate-400">Mengaplikasikan palet warna kontras (teal dan oranye) untuk merepresentasikan energi yang gesit dan profesional.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="empathize" class="max-w-5xl mx-auto py-16 px-6 border-b border-slate-200 text-center md:text-left">
+    <div class="text-center mb-8">
+      <h3 class="text-2xl font-black tracking-tight text-slate-900">1. Empathize</h3>
+      <p class="text-xs text-slate-500 mt-1 max-w-xl mx-auto">
+        Menyelami pengalaman langsung dari sisi pengguna untuk memetakan titik masalah (pain points) saat mereka bergantung pada transportasi online.
+      </p>
+    </div>
+
+    <div class="w-full rounded-2xl border border-slate-200 shadow-sm overflow-hidden bg-white mb-6">
+      <iframe 
+        class="w-full aspect-[16/9]" 
+        src="https://embed.figma.com/design/Qp6cYbjAtLJW6BJoH0otMI/Tugas-bu-Nia?node-id=354-996&embed-host=share" 
+        style="border: 0;" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6 text-left">
+      <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm text-xs">
+        <h4 class="font-bold text-slate-800 mb-3 uppercase tracking-wider text-[10px] text-teal-600">Teknik Validasi Permasalahan</h4>
+        <ul class="space-y-2 text-slate-600 list-disc list-inside">
+          <li><strong>In-Depth Interview:</strong> Melakukan sesi diskusi personal untuk mengungkap motivasi dan kendala riil penumpang.</li>
+          <li><strong>Behavioral Observation:</strong> Menganalisis kebingungan pengguna ketika aplikasi memberikan estimasi waktu atau harga yang meleset dari kenyataan.</li>
+        </ul>
+      </div>
+      <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm text-xs">
+        <h4 class="font-bold text-slate-800 mb-3 uppercase tracking-wider text-[10px] text-teal-600">Sintesis Temuan Utama</h4>
+        <ul class="space-y-2 text-slate-600 list-disc list-inside">
+          <li><strong>Cemas Keterlambatan:</strong> Durasi penjemputan acapkali tidak sinkron dengan kondisi lalu lintas, memicu stres pada pengguna.</li>
+          <li><strong>Transparansi Armada:</strong> Penumpang kesulitan mengetahui ketersediaan mitra pengemudi terdekat sebelum melakukan pemesanan final.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="define" class="max-w-5xl mx-auto py-16 px-6 border-b border-slate-200">
+    <div class="text-center mb-8">
+      <h3 class="text-2xl font-black tracking-tight text-slate-900">2. Define</h3>
+      <p class="text-xs text-slate-500 mt-1 max-w-xl mx-auto">
+        Mengerucutkan inti dari keresahan pengguna yang telah dievaluasi untuk menetapkan arah utama perancangan solusi.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6 text-left mb-6">
+      <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm text-xs">
+        <h4 class="font-bold text-slate-800 mb-3 uppercase tracking-wider text-[10px] text-teal-600">Problem Statement</h4>
+        <p class="text-slate-600 leading-relaxed">
+          Audiens sangat membutuhkan data estimasi durasi dan tarif yang presisi serta terbuka untuk mencegah konsekuensi buruk dari keterlambatan jadwal krusial mereka.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm text-xs">
+        <h4 class="font-bold text-slate-800 mb-3 uppercase tracking-wider text-[10px] text-teal-600">How Might We (HMW)</h4>
+        <p class="text-slate-600 leading-relaxed font-semibold">
+          “Bagaimana cara kita membangun sebuah mekanisme yang dapat menjamin keakuratan waktu perjalanan, sehingga pelanggan leluasa mengatur jadwal harian mereka secara aman?”
+        </p>
+      </div>
+    </div>
+
+    <div class="w-full text-left">
+      <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm text-xs">
+        <h4 class="font-bold text-slate-800 mb-3 uppercase tracking-wider text-[10px] text-teal-600">Matriks Prioritas (Fitur High Impact)</h4>
+        
+        <p class="text-slate-600 mb-3">Mengacu pada kuadran evaluasi "Do It Now" di Impact Matrix, pengerjaan difokuskan pada gagasan bernilai guna tinggi:</p>
+        
+        <ul class="space-y-2 text-slate-600 list-disc list-inside">
+          <li><strong>Pemantauan Keberadaan Driver:</strong> Menyoroti persebaran dan status armada lokal di detik pertama aplikasi dimuat.</li>
+          <li><strong>Prediksi Durasi Rentang Waktu:</strong> Menampilkan waktu tiba berbasis "range" (misal: 10-15 menit) guna mengakomodasi margin error kondisi riil jalan.</li>
+          <li><strong>Tracking Real-Time Kalkulatif:</strong> Menyesuaikan sisa menit perjalanan secara adaptif dengan kemacetan di rute bersangkutan.</li>
+          <li><strong>Rekomendasi Rute Harian Pintar:</strong> Menyodorkan lokasi tujuan instan berdasarkan rekam jejak rutinitas perjalanan jam sibuk pengguna.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="ideate" class="max-w-5xl mx-auto py-16 px-6 border-b border-slate-200 text-center md:text-left">
+    <div class="text-center mb-8">
+      <h3 class="text-2xl font-black tracking-tight text-slate-900">3. Ideate</h3>
+      <p class="text-xs text-slate-500 mt-1 max-w-xl mx-auto">
+        Mengonversi rumusan masalah dan HMW menjadi ide-ide fitur yang konkret, lalu memetakannya menjadi sistem arsitektur antarmuka.
+      </p>
+    </div>
+
+    <div class="space-y-12 max-w-4xl mx-auto text-left text-xs">
+      <div>
+        <h4 class="text-xl md:text-2xl font-black text-slate-900 mb-4 tracking-tight">🎨 High-Fidelity Flow</h4>
+        <div class="w-full rounded-2xl border border-slate-200 shadow-sm overflow-hidden bg-white">
+          <iframe 
+            class="w-full aspect-[16/9] md:h-[500px]"
+            src="https://embed.figma.com/design/Qp6cYbjAtLJW6BJoH0otMI/Tugas-bu-Nia?node-id=146-16178&embed-host=share" 
+            style="border: 0;" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="text-xl md:text-2xl font-black text-slate-900 mb-4 tracking-tight">📈 Crazy8</h4>
+        <div class="w-full rounded-2xl border border-slate-200 shadow-sm overflow-hidden bg-white">
+          <iframe 
+            class="w-full aspect-[16/9] md:h-[500px]"
+            src="https://embed.figma.com/design/Qp6cYbjAtLJW6BJoH0otMI/Tugas-bu-Nia?node-id=131-16177&embed-host=share" 
+            style="border: 0;" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="text-xl md:text-2xl font-black text-slate-900 mb-4 tracking-tight">📐 Wireframe Dasar</h4>
+        <div class="w-full rounded-2xl border border-slate-200 shadow-sm overflow-hidden bg-white">
+          <iframe 
+            class="w-full aspect-[16/9] md:h-[500px]"
+            src="https://embed.figma.com/design/Qp6cYbjAtLJW6BJoH0otMI/Tugas-bu-Nia?node-id=130-11037&embed-host=share" 
+            style="border: 0;" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="text-xl md:text-2xl font-black text-slate-900 mb-4 tracking-tight">🗺️ Arsitektur Informasi (User Flow)</h4>
+        <div class="w-full rounded-2xl border border-slate-200 shadow-sm overflow-hidden bg-white">
+          <iframe 
+            class="w-full aspect-[16/9] md:h-[500px]"
+            src="https://embed.figma.com/design/Qp6cYbjAtLJW6BJoH0otMI/Tugas-bu-Nia?node-id=130-13369&embed-host=share" 
+            style="border: 0;" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="text-xl md:text-2xl font-black text-slate-900 mb-4 tracking-tight">🧪 Komponen Design System</h4>
+        <div class="w-full rounded-2xl border border-slate-200 shadow-sm overflow-hidden bg-white">
+          <iframe 
+            class="w-full aspect-[16/9] md:h-[500px]"
+            src="https://embed.figma.com/design/Qp6cYbjAtLJW6BJoH0otMI/Tugas-bu-Nia?node-id=113-4826&embed-host=share" 
+            style="border: 0;" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="prototype" class="max-w-5xl mx-auto py-16 px-6 border-b border-slate-200 text-center md:text-left">
+    <div class="text-center mb-8">
+      <h3 class="text-2xl font-black tracking-tight text-slate-900">4. Prototype</h3>
+      <p class="text-xs text-slate-500 mt-1 max-w-xl mx-auto">
+        Simulasi interaktif dari antarmuka GoRide.
+      </p>
+    </div>
+
+    <div class="max-w-4xl mx-auto text-left">
+      <div class="w-full rounded-2xl border border-slate-200 shadow-sm overflow-hidden bg-white">
+        <iframe 
+          style="border: 1px solid rgba(0, 0, 0, 0.1);" 
+          width="800" 
+          height="450" 
+          src="https://embed.figma.com/proto/Qp6cYbjAtLJW6BJoH0otMI/Tugas-bu-Nia?node-id=404-4218&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=404%3A4218&show-proto-sidebar=1&embed-host=share" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="test" class="max-w-5xl mx-auto py-16 px-6 text-xs text-slate-700">
+    <div class="text-center mb-10">
+      <h3 class="text-2xl font-black tracking-tight text-slate-900">5. Test</h3>
+      <p class="text-xs text-slate-500 mt-1 max-w-xl mx-auto">
+        Fase pengujian kualitas produk kepada representasi target pasar melalui metode Usability Testing guna melihat respons langsung atas solusi yang dibangun.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 items-start">
+      <div class="bg-white p-4 rounded-2xl border border-slate-200 text-center">
+        <div class="w-full aspect-square bg-slate-100 rounded-xl flex items-center justify-center font-bold text-slate-400 text-xs mb-3 overflow-hidden border border-dashed border-slate-300">
+          [Foto Sesi UT Penguji]
+        </div>
+        <p class="font-bold text-sm text-slate-900">Profil Partisipan Uji</p>
+        <p class="text-[10px] text-slate-400 font-medium">Pengguna Rutin Transportasi Online</p>
+        <p class="italic text-slate-500 mt-2 font-medium">&ldquo;Flow aplikasinya lancar, tampilan jarak dan waktu armada sangat membantu mengambil keputusan saat terburu-buru.&rdquo;</p>
+      </div>
+
+      <div class="md:col-span-2 space-y-4">
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm overflow-x-auto">
+          <h4 class="font-bold text-slate-800 mb-3 uppercase tracking-wider text-[10px] text-teal-600">Rangkuman Kinerja Skenario (Usability Metrics)</h4>
+          <table class="w-full text-left border-collapse">
+            <thead>
+              <tr class="border-b border-slate-100 text-slate-400 font-bold text-[10px]">
+                <th class="pb-2">Skenario Tugas</th>
+                <th class="pb-2">Hasil</th>
+                <th class="pb-2">Observasi Analis</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-50 text-[11px]">
+              <tr>
+                <td class="py-2.5 font-medium">Menganalisis Letak Driver Terdekat</td>
+                <td class="py-2.5 text-orange-600 font-bold">✓ Tercapai</td>
+                <td class="py-2.5 text-slate-500">Responden menangkap informasi persebaran radar tanpa kebingungan.</td>
+              </tr>
+              <tr>
+                <td class="py-2.5 font-medium">Menentukan Rute via Auto-Suggest</td>
+                <td class="py-2.5 text-orange-600 font-bold">✓ Tercapai</td>
+                <td class="py-2.5 text-slate-500">Signifikan mengurangi hambatan interaksi pengetikan manual.</td>
+              </tr>
+              <tr>
+                <td class="py-2.5 font-medium">Membaca Rentang Estimasi Kedatangan</td>
+                <td class="py-2.5 text-orange-600 font-bold">✓ Tercapai</td>
+                <td class="py-2.5 text-slate-500">Ekspektasi tunggu responden menjadi lebih realistis dan terkendali.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-4 mt-6">
+      <div class="p-5 bg-white rounded-xl border border-slate-200">
+        <span class="font-bold text-slate-800 block mb-1">💬 Kritik & Saran Pembangunan</span>
+        <p class="text-slate-500 leading-relaxed">&ldquo;Akses untuk membatalkan pesanan di tengah jalan rasanya masih agak tersembunyi, bikin kurang leluasa kalau salah input.&rdquo;</p>
+      </div>
+      <div class="p-5 bg-white rounded-xl border border-slate-200">
+        <span class="font-bold text-slate-800 block mb-1">🛠️ Eksekusi Revisi Desain</span>
+        <p class="text-slate-600"><strong class="text-red-500">Kondisi Awal:</strong> Menu "Cancel" berada di dalam pop-up panel yang harus di-swipe ke atas terlebih dahulu.</p>
+        <p class="text-slate-600 mt-1"><strong class="text-teal-600">Realisasi:</strong> Mengekstrak fungsi pembatalan menjadi tombol independen (floating/utama) di layar pencarian armada.</p>
+      </div>
+    </div>
+
+    <div class="p-5 bg-teal-50 text-teal-900 border border-teal-200 rounded-xl mt-6">
+      <span class="font-bold block mb-1">📌 Resolusi Akhir Studi Kasus</span>
+      <p class="text-teal-900/90">Evolusi dari pendekatan solusi antarmuka GoRide di atas mampu memecahkan masalah kecemasan operasional pelanggan. Integrasi pelacakan prediktif ini berimplikasi positif terhadap perbaikan manajemen waktu komuter sehari-hari.</p>
+    </div>
+  </section>
+
+  <section class="w-full bg-white py-16 px-6 border-t border-slate-200 text-center">
+    <div class="max-w-md mx-auto flex flex-col items-center">
+      <h4 class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-6">Creator Profile</h4>
+      <div class="w-24 h-24 bg-slate-100 border border-dashed border-slate-300 rounded-full flex items-center justify-center text-slate-400 font-bold text-xs overflow-hidden mb-4 shadow-sm">
+        [Foto Profil]
+      </div>
+      <h5 class="font-extrabold text-slate-950 text-base">Ficko Daniar Fachryza Putra</h5>
+      <p class="text-[11px] text-slate-400 font-mono tracking-wider mt-0.5">NIM. 253307043</p>
+      
+      <div class="flex gap-4 mt-4 text-xs font-bold text-slate-400">
+        <span class="hover:text-teal-600 cursor-pointer">LinkedIn</span>
+        <span class="hover:text-teal-600 cursor-pointer">Instagram</span>
+        <span class="hover:text-teal-600 cursor-pointer">GitHub</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="w-full py-6 text-center text-[10px] text-slate-400 bg-slate-50 border-t border-slate-100">
+    <p>© 2026 GoRide App — Portofolio Praktikum UI/UX Student Assignment</p>
+  </footer>
+
+</body>
+</html>
